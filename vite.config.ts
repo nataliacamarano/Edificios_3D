@@ -13,6 +13,9 @@ export default defineConfig(({ mode }) =>
       }
     : {
         plugins: [react()],
+        // Rutas relativas: la versión web funciona en la raíz de un dominio o en una subcarpeta
+        // (GitHub Pages la publica en /<repositorio>/)
+        base: './',
         // Las carpetas de compilación y del instalador no se vigilan (Windows las bloquea al generarlas)
         server: { port: 5173, watch: { ignored: ['**/release/**', '**/dist/**', '**/dist-file/**'] } },
         build: { chunkSizeWarningLimit: 1500 },

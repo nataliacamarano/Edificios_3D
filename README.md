@@ -26,6 +26,10 @@ Abre http://localhost:5173. La primera vez la app arranca con los **5 edificios 
 | `npm run app` | Programa de escritorio (Electron) | Para probarlo. |
 | `npm run dist:win` | `release/…Setup….exe` | Instalador para Windows. |
 
+## Publicar en GitHub Pages
+
+Cada vez que se sube algo a `main`, el flujo `.github/workflows/pages.yml` compila la versión web y la publica en `https://<usuario>.github.io/<repositorio>/`. La primera vez hay que activar Pages en el repositorio: *Settings → Pages → Build and deployment → Source: GitHub Actions*. La versión publicada arranca con los edificios de ejemplo; los datos de cada visitante se guardan solo en su navegador.
+
 ## Constructor de planta (pestaña «Constructor»)
 
 Asistente de 11 pasos, de la foto del plano a la planta lista para las rutas. Los pasos que se pueden comprobar se marcan solos; el resto, con «Hecho». Lo hecho se guarda con cada planta.
