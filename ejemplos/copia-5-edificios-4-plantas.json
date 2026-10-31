@@ -1,0 +1,9181 @@
+{
+ "kind": "modelo-planta-copia",
+ "version": 1,
+ "activeBuildingId": "edificio-ej1",
+ "buildings": [
+  {
+   "id": "edificio-ej1",
+   "name": "Torre Norte",
+   "data": {
+    "version": 1,
+    "name": "Torre Norte",
+    "building": {
+     "floors": [
+      {
+       "id": "edificio-ej1-p3",
+       "name": "Planta 3",
+       "level": 3,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 56,
+         "z": 0
+        },
+        {
+         "x": 56,
+         "z": 24
+        },
+        {
+         "x": 0,
+         "z": 24
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej1-p3-0",
+         "name": "Good lift N (P3)",
+         "kind": "lift",
+         "x": 21,
+         "z": 8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p3-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej1-p3-1",
+         "name": "Ascensor visitas 1 (P3)",
+         "kind": "lift",
+         "x": 23.4,
+         "z": 8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p3-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej1-p3-2",
+         "name": "Escalera N (P3)",
+         "kind": "stairs",
+         "x": 25.8,
+         "z": 8,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p3-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej1-p3-3",
+         "name": "Aseo hombres N3",
+         "kind": "restroom",
+         "x": 29,
+         "z": 8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p3-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p3-4",
+         "name": "Aseo neutro N3",
+         "kind": "restroom",
+         "x": 32.2,
+         "z": 8,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p3-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p3-5",
+         "name": "Good lift S (P3)",
+         "kind": "lift",
+         "x": 21,
+         "z": 13.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p3-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej1-p3-6",
+         "name": "Ascensor visitas 2 (P3)",
+         "kind": "lift",
+         "x": 23.4,
+         "z": 13.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p3-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej1-p3-7",
+         "name": "Escalera S (P3)",
+         "kind": "stairs",
+         "x": 25.8,
+         "z": 13.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p3-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej1-p3-8",
+         "name": "Aseo mujeres S3",
+         "kind": "restroom",
+         "x": 29,
+         "z": 12.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p3-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p3-9",
+         "name": "Cuarto de limpieza P3",
+         "kind": "room",
+         "x": 32.2,
+         "z": 13.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p3-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p3-10",
+         "name": "Sala 3.1",
+         "kind": "meeting",
+         "x": 2,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p3-d10-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p3-11",
+         "name": "Sala 3.2",
+         "kind": "meeting",
+         "x": 7,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p3-d11-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p3-12",
+         "name": "Sala 3.3",
+         "kind": "meeting",
+         "x": 12,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p3-d12-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p3-13",
+         "name": "Office P3",
+         "kind": "kitchen",
+         "x": 46,
+         "z": 1,
+         "w": 8,
+         "d": 5,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p3-14",
+         "name": "Sala grande 3.1",
+         "kind": "meeting",
+         "x": 36,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej1-p3-d14-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p3-15",
+         "name": "Puestos 3A",
+         "kind": "workspace",
+         "x": 2,
+         "z": 17,
+         "w": 18,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p3-16",
+         "name": "Puestos 3B",
+         "kind": "workspace",
+         "x": 36,
+         "z": 17,
+         "w": 18,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p3-17",
+         "name": "Phone booth 3",
+         "kind": "room",
+         "x": 20.5,
+         "z": 20,
+         "w": 2,
+         "d": 2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p3-d17-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      },
+      {
+       "id": "edificio-ej1-p2",
+       "name": "Planta 2",
+       "level": 2,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 56,
+         "z": 0
+        },
+        {
+         "x": 56,
+         "z": 24
+        },
+        {
+         "x": 0,
+         "z": 24
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej1-p2-0",
+         "name": "Good lift N (P2)",
+         "kind": "lift",
+         "x": 21,
+         "z": 8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p2-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej1-p2-1",
+         "name": "Ascensor visitas 1 (P2)",
+         "kind": "lift",
+         "x": 23.4,
+         "z": 8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p2-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej1-p2-2",
+         "name": "Escalera N (P2)",
+         "kind": "stairs",
+         "x": 25.8,
+         "z": 8,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p2-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej1-p2-3",
+         "name": "Aseo hombres N2",
+         "kind": "restroom",
+         "x": 29,
+         "z": 8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p2-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p2-4",
+         "name": "Aseo neutro N2",
+         "kind": "restroom",
+         "x": 32.2,
+         "z": 8,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p2-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p2-5",
+         "name": "Good lift S (P2)",
+         "kind": "lift",
+         "x": 21,
+         "z": 13.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p2-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej1-p2-6",
+         "name": "Ascensor visitas 2 (P2)",
+         "kind": "lift",
+         "x": 23.4,
+         "z": 13.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p2-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej1-p2-7",
+         "name": "Escalera S (P2)",
+         "kind": "stairs",
+         "x": 25.8,
+         "z": 13.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p2-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej1-p2-8",
+         "name": "Aseo mujeres S2",
+         "kind": "restroom",
+         "x": 29,
+         "z": 12.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p2-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p2-9",
+         "name": "Cuarto de limpieza P2",
+         "kind": "room",
+         "x": 32.2,
+         "z": 13.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p2-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p2-10",
+         "name": "Sala 2.1",
+         "kind": "meeting",
+         "x": 2,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p2-d10-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p2-11",
+         "name": "Sala 2.2",
+         "kind": "meeting",
+         "x": 7,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p2-d11-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p2-12",
+         "name": "Sala 2.3",
+         "kind": "meeting",
+         "x": 12,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p2-d12-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p2-13",
+         "name": "Office P2",
+         "kind": "kitchen",
+         "x": 46,
+         "z": 1,
+         "w": 8,
+         "d": 5,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p2-14",
+         "name": "Sala grande 2.1",
+         "kind": "meeting",
+         "x": 36,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej1-p2-d14-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p2-15",
+         "name": "Puestos 2A",
+         "kind": "workspace",
+         "x": 2,
+         "z": 17,
+         "w": 18,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p2-16",
+         "name": "Puestos 2B",
+         "kind": "workspace",
+         "x": 36,
+         "z": 17,
+         "w": 18,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p2-17",
+         "name": "Phone booth 2",
+         "kind": "room",
+         "x": 20.5,
+         "z": 20,
+         "w": 2,
+         "d": 2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p2-d17-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      },
+      {
+       "id": "edificio-ej1-p1",
+       "name": "Planta 1",
+       "level": 1,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 56,
+         "z": 0
+        },
+        {
+         "x": 56,
+         "z": 24
+        },
+        {
+         "x": 0,
+         "z": 24
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej1-p1-0",
+         "name": "Good lift N (P1)",
+         "kind": "lift",
+         "x": 21,
+         "z": 8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p1-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej1-p1-1",
+         "name": "Ascensor visitas 1 (P1)",
+         "kind": "lift",
+         "x": 23.4,
+         "z": 8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p1-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej1-p1-2",
+         "name": "Escalera N (P1)",
+         "kind": "stairs",
+         "x": 25.8,
+         "z": 8,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p1-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej1-p1-3",
+         "name": "Aseo hombres N1",
+         "kind": "restroom",
+         "x": 29,
+         "z": 8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p1-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p1-4",
+         "name": "Aseo neutro N1",
+         "kind": "restroom",
+         "x": 32.2,
+         "z": 8,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p1-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p1-5",
+         "name": "Good lift S (P1)",
+         "kind": "lift",
+         "x": 21,
+         "z": 13.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p1-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej1-p1-6",
+         "name": "Ascensor visitas 2 (P1)",
+         "kind": "lift",
+         "x": 23.4,
+         "z": 13.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p1-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej1-p1-7",
+         "name": "Escalera S (P1)",
+         "kind": "stairs",
+         "x": 25.8,
+         "z": 13.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p1-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej1-p1-8",
+         "name": "Aseo mujeres S1",
+         "kind": "restroom",
+         "x": 29,
+         "z": 12.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p1-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p1-9",
+         "name": "Cuarto de limpieza P1",
+         "kind": "room",
+         "x": 32.2,
+         "z": 13.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p1-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p1-10",
+         "name": "Sala 1.1",
+         "kind": "meeting",
+         "x": 2,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p1-d10-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p1-11",
+         "name": "Sala 1.2",
+         "kind": "meeting",
+         "x": 7,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p1-d11-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p1-12",
+         "name": "Sala 1.3",
+         "kind": "meeting",
+         "x": 12,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p1-d12-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p1-13",
+         "name": "Office P1",
+         "kind": "kitchen",
+         "x": 46,
+         "z": 1,
+         "w": 8,
+         "d": 5,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p1-14",
+         "name": "Sala grande 1.1",
+         "kind": "meeting",
+         "x": 36,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej1-p1-d14-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p1-15",
+         "name": "Puestos 1A",
+         "kind": "workspace",
+         "x": 2,
+         "z": 17,
+         "w": 18,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p1-16",
+         "name": "Puestos 1B",
+         "kind": "workspace",
+         "x": 36,
+         "z": 17,
+         "w": 18,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p1-17",
+         "name": "Phone booth 1",
+         "kind": "room",
+         "x": 20.5,
+         "z": 20,
+         "w": 2,
+         "d": 2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p1-d17-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      },
+      {
+       "id": "edificio-ej1-p0",
+       "name": "Planta 0",
+       "level": 0,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 56,
+         "z": 0
+        },
+        {
+         "x": 56,
+         "z": 24
+        },
+        {
+         "x": 0,
+         "z": 24
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej1-p0-0",
+         "name": "Good lift N (P0)",
+         "kind": "lift",
+         "x": 21,
+         "z": 8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p0-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej1-p0-1",
+         "name": "Ascensor visitas 1 (P0)",
+         "kind": "lift",
+         "x": 23.4,
+         "z": 8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p0-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej1-p0-2",
+         "name": "Escalera N (P0)",
+         "kind": "stairs",
+         "x": 25.8,
+         "z": 8,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p0-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej1-p0-3",
+         "name": "Aseo hombres N0",
+         "kind": "restroom",
+         "x": 29,
+         "z": 8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p0-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p0-4",
+         "name": "Aseo neutro N0",
+         "kind": "restroom",
+         "x": 32.2,
+         "z": 8,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p0-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p0-5",
+         "name": "Good lift S (P0)",
+         "kind": "lift",
+         "x": 21,
+         "z": 13.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p0-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej1-p0-6",
+         "name": "Ascensor visitas 2 (P0)",
+         "kind": "lift",
+         "x": 23.4,
+         "z": 13.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p0-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej1-p0-7",
+         "name": "Escalera S (P0)",
+         "kind": "stairs",
+         "x": 25.8,
+         "z": 13.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p0-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej1-p0-8",
+         "name": "Aseo mujeres S0",
+         "kind": "restroom",
+         "x": 29,
+         "z": 12.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej1-p0-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p0-9",
+         "name": "Cuarto de limpieza P0",
+         "kind": "room",
+         "x": 32.2,
+         "z": 13.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej1-p0-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p0-10",
+         "name": "Recepción",
+         "kind": "lobby",
+         "x": 20,
+         "z": 17,
+         "w": 16,
+         "d": 6,
+         "doors": [],
+         "tags": [
+          "recepción"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p0-11",
+         "name": "Restaurante",
+         "kind": "kitchen",
+         "x": 2,
+         "z": 1,
+         "w": 16,
+         "d": 7,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p0-12",
+         "name": "Cocina del restaurante",
+         "kind": "room",
+         "x": 2,
+         "z": 8.5,
+         "w": 6,
+         "d": 4,
+         "doors": [
+          {
+           "id": "edificio-ej1-p0-d12-e",
+           "side": "e",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej1-p0-13",
+         "name": "Sala de visitas 1",
+         "kind": "meeting",
+         "x": 37,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej1-p0-d13-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p0-14",
+         "name": "Sala de visitas 2",
+         "kind": "meeting",
+         "x": 42,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej1-p0-d14-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p0-15",
+         "name": "Sala de visitas 3",
+         "kind": "meeting",
+         "x": 47,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej1-p0-d15-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p0-16",
+         "name": "Zona de espera",
+         "kind": "workspace",
+         "x": 2,
+         "z": 17,
+         "w": 16,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej1-p0-17",
+         "name": "Seguridad",
+         "kind": "room",
+         "x": 48,
+         "z": 18,
+         "w": 6,
+         "d": 5,
+         "doors": [
+          {
+           "id": "edificio-ej1-p0-d17-w",
+           "side": "w",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      }
+     ],
+     "itemTypes": [
+      {
+       "id": "t-papelera",
+       "name": "Papelera",
+       "icon": "🗑️",
+       "color": "#64748b",
+       "shape": "bin",
+       "w": 0.5,
+       "d": 0.5,
+       "dwell": 30
+      },
+      {
+       "id": "t-reciclaje",
+       "name": "Reciclaje",
+       "icon": "♻️",
+       "color": "#16a34a",
+       "shape": "bin",
+       "w": 0.6,
+       "d": 0.6,
+       "dwell": 45
+      },
+      {
+       "id": "t-vaciado",
+       "name": "Punto de vaciado",
+       "icon": "🚮",
+       "color": "#0f766e",
+       "shape": "box",
+       "w": 1.2,
+       "d": 1,
+       "dwell": 120
+      },
+      {
+       "id": "t-cuarto",
+       "name": "Cuarto de limpieza",
+       "icon": "🧹",
+       "color": "#a16207",
+       "shape": "box",
+       "w": 2,
+       "d": 2,
+       "dwell": 180
+      },
+      {
+       "id": "t-jabon",
+       "name": "Dispensador de jabón",
+       "icon": "🧴",
+       "color": "#db2777",
+       "shape": "bin",
+       "w": 0.3,
+       "d": 0.3,
+       "dwell": 20
+      },
+      {
+       "id": "t-papel",
+       "name": "Dispensador de papel",
+       "icon": "🧻",
+       "color": "#9333ea",
+       "shape": "bin",
+       "w": 0.3,
+       "d": 0.3,
+       "dwell": 20
+      },
+      {
+       "id": "t-nook",
+       "name": "Phone nook",
+       "icon": "📞",
+       "color": "#2563eb",
+       "shape": "box",
+       "w": 1.2,
+       "d": 1.2,
+       "dwell": 120
+      },
+      {
+       "id": "t-pod",
+       "name": "Meeting pod",
+       "icon": "👥",
+       "color": "#0ea5e9",
+       "shape": "box",
+       "w": 2.4,
+       "d": 2,
+       "dwell": 240
+      }
+     ],
+     "items": [],
+     "autoFurnish": true
+    },
+    "persons": [
+     {
+      "speed": 1.2,
+      "optimize": false,
+      "id": "edificio-ej1-p0",
+      "name": "Ana",
+      "color": "#e4572e",
+      "tags": [
+       "limpieza",
+       "equipo norte"
+      ],
+      "startDelay": 0,
+      "returnToStart": true,
+      "stops": [
+       {
+        "id": "edificio-ej1-p0-s0",
+        "floorId": "edificio-ej1-p0",
+        "spaceId": "edificio-ej1-p0-0",
+        "dwell": 60
+       },
+       {
+        "id": "edificio-ej1-p0-s1",
+        "floorId": "edificio-ej1-p1",
+        "spaceId": "edificio-ej1-p1-3",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej1-p0-s2",
+        "floorId": "edificio-ej1-p1",
+        "spaceId": "edificio-ej1-p1-4",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej1-p0-s3",
+        "floorId": "edificio-ej1-p2",
+        "spaceId": "edificio-ej1-p2-3",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej1-p0-s4",
+        "floorId": "edificio-ej1-p2",
+        "spaceId": "edificio-ej1-p2-4",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej1-p0-s5",
+        "floorId": "edificio-ej1-p3",
+        "spaceId": "edificio-ej1-p3-3",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej1-p0-s6",
+        "floorId": "edificio-ej1-p3",
+        "spaceId": "edificio-ej1-p3-4",
+        "dwell": 300
+       }
+      ]
+     },
+     {
+      "speed": 1.2,
+      "optimize": false,
+      "id": "edificio-ej1-p1",
+      "name": "Luis",
+      "color": "#2e86de",
+      "tags": [
+       "limpieza",
+       "equipo sur"
+      ],
+      "startDelay": 0,
+      "returnToStart": true,
+      "stops": [
+       {
+        "id": "edificio-ej1-p1-s0",
+        "floorId": "edificio-ej1-p0",
+        "spaceId": "edificio-ej1-p0-5",
+        "dwell": 60
+       },
+       {
+        "id": "edificio-ej1-p1-s1",
+        "floorId": "edificio-ej1-p1",
+        "spaceId": "edificio-ej1-p1-8",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej1-p1-s2",
+        "floorId": "edificio-ej1-p2",
+        "spaceId": "edificio-ej1-p2-8",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej1-p1-s3",
+        "floorId": "edificio-ej1-p3",
+        "spaceId": "edificio-ej1-p3-8",
+        "dwell": 300
+       }
+      ]
+     }
+    ],
+    "rules": [
+     {
+      "id": "r-montacargas",
+      "personTag": "limpieza",
+      "spaceTag": "montacargas",
+      "mode": "only"
+     },
+     {
+      "id": "r-visitantes",
+      "personTag": "limpieza",
+      "spaceTag": "visitantes",
+      "mode": "deny"
+     },
+     {
+      "id": "r-carro",
+      "personTag": "limpieza",
+      "spaceTag": "sin carro",
+      "mode": "deny"
+     },
+     {
+      "id": "r-evitar-carro",
+      "personTag": "limpieza",
+      "spaceTag": "evitar carro",
+      "mode": "avoid"
+     },
+     {
+      "id": "r-escaleras",
+      "personTag": "limpieza",
+      "spaceTag": "escalera",
+      "mode": "deny"
+     },
+     {
+      "id": "r-lado-norte",
+      "personTag": "equipo norte",
+      "spaceTag": "lado sur",
+      "mode": "avoid"
+     },
+     {
+      "id": "r-lado-sur",
+      "personTag": "equipo sur",
+      "spaceTag": "lado norte",
+      "mode": "avoid"
+     }
+    ],
+    "startTime": 32400,
+    "areaMap": {},
+    "routines": [
+     {
+      "id": "r-banos",
+      "name": "Rutina de baños",
+      "color": "#db2777",
+      "filters": [
+       {
+        "kind": "spaces",
+        "spaceKinds": [
+         "restroom"
+        ],
+        "tags": [
+         "aseo"
+        ]
+       }
+      ],
+      "extra": [],
+      "floorIds": [],
+      "dwell": 300,
+      "rounds": [
+       "10:00",
+       "12:00",
+       "14:00"
+      ]
+     },
+     {
+      "id": "r-basura",
+      "name": "Recogida de basura",
+      "color": "#16a34a",
+      "filters": [
+       {
+        "kind": "items",
+        "typeIds": [
+         "t-papelera",
+         "t-reciclaje",
+         "t-vaciado"
+        ]
+       }
+      ],
+      "extra": [],
+      "floorIds": [],
+      "dwell": 60,
+      "rounds": []
+     },
+     {
+      "id": "r-meetings",
+      "name": "Limpieza de salas de reunión",
+      "color": "#2563eb",
+      "filters": [
+       {
+        "kind": "spaces",
+        "spaceKinds": [
+         "meeting"
+        ],
+        "tags": []
+       },
+       {
+        "kind": "items",
+        "typeIds": [
+         "t-nook",
+         "t-pod"
+        ]
+       }
+      ],
+      "extra": [],
+      "floorIds": [],
+      "dwell": 180,
+      "rounds": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "edificio-ej2",
+   "name": "Edificio Atocha",
+   "data": {
+    "version": 1,
+    "name": "Edificio Atocha",
+    "building": {
+     "floors": [
+      {
+       "id": "edificio-ej2-p3",
+       "name": "Planta 3",
+       "level": 3,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 64,
+         "z": 0
+        },
+        {
+         "x": 64,
+         "z": 26
+        },
+        {
+         "x": 0,
+         "z": 26
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej2-p3-0",
+         "name": "Good lift N (P3)",
+         "kind": "lift",
+         "x": 25,
+         "z": 9,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej2-p3-1",
+         "name": "Ascensor visitas 1 (P3)",
+         "kind": "lift",
+         "x": 27.4,
+         "z": 9,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej2-p3-2",
+         "name": "Escalera N (P3)",
+         "kind": "stairs",
+         "x": 29.8,
+         "z": 9,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej2-p3-3",
+         "name": "Aseo hombres N3",
+         "kind": "restroom",
+         "x": 33,
+         "z": 9,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p3-4",
+         "name": "Aseo neutro N3",
+         "kind": "restroom",
+         "x": 36.2,
+         "z": 9,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p3-5",
+         "name": "Good lift S (P3)",
+         "kind": "lift",
+         "x": 25,
+         "z": 14.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej2-p3-6",
+         "name": "Ascensor visitas 2 (P3)",
+         "kind": "lift",
+         "x": 27.4,
+         "z": 14.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej2-p3-7",
+         "name": "Escalera S (P3)",
+         "kind": "stairs",
+         "x": 29.8,
+         "z": 14.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej2-p3-8",
+         "name": "Aseo mujeres S3",
+         "kind": "restroom",
+         "x": 33,
+         "z": 13.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p3-9",
+         "name": "Cuarto de limpieza P3",
+         "kind": "room",
+         "x": 36.2,
+         "z": 14.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p3-10",
+         "name": "Sala 3.1",
+         "kind": "meeting",
+         "x": 2,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d10-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p3-11",
+         "name": "Sala 3.2",
+         "kind": "meeting",
+         "x": 7,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d11-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p3-12",
+         "name": "Sala 3.3",
+         "kind": "meeting",
+         "x": 12,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d12-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p3-13",
+         "name": "Sala 3.4",
+         "kind": "meeting",
+         "x": 17,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d13-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p3-14",
+         "name": "Office P3",
+         "kind": "kitchen",
+         "x": 54,
+         "z": 1,
+         "w": 8,
+         "d": 5,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p3-15",
+         "name": "Sala grande 3.1",
+         "kind": "meeting",
+         "x": 40,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d15-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p3-16",
+         "name": "Sala grande 3.2",
+         "kind": "meeting",
+         "x": 46.5,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d16-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p3-17",
+         "name": "Puestos 3A",
+         "kind": "workspace",
+         "x": 2,
+         "z": 19,
+         "w": 22,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p3-18",
+         "name": "Puestos 3B",
+         "kind": "workspace",
+         "x": 40,
+         "z": 19,
+         "w": 22,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p3-19",
+         "name": "Phone booth 3",
+         "kind": "room",
+         "x": 24.5,
+         "z": 22,
+         "w": 2,
+         "d": 2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p3-d19-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      },
+      {
+       "id": "edificio-ej2-p2",
+       "name": "Planta 2",
+       "level": 2,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 64,
+         "z": 0
+        },
+        {
+         "x": 64,
+         "z": 26
+        },
+        {
+         "x": 0,
+         "z": 26
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej2-p2-0",
+         "name": "Good lift N (P2)",
+         "kind": "lift",
+         "x": 25,
+         "z": 9,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej2-p2-1",
+         "name": "Ascensor visitas 1 (P2)",
+         "kind": "lift",
+         "x": 27.4,
+         "z": 9,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej2-p2-2",
+         "name": "Escalera N (P2)",
+         "kind": "stairs",
+         "x": 29.8,
+         "z": 9,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej2-p2-3",
+         "name": "Aseo hombres N2",
+         "kind": "restroom",
+         "x": 33,
+         "z": 9,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p2-4",
+         "name": "Aseo neutro N2",
+         "kind": "restroom",
+         "x": 36.2,
+         "z": 9,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p2-5",
+         "name": "Good lift S (P2)",
+         "kind": "lift",
+         "x": 25,
+         "z": 14.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej2-p2-6",
+         "name": "Ascensor visitas 2 (P2)",
+         "kind": "lift",
+         "x": 27.4,
+         "z": 14.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej2-p2-7",
+         "name": "Escalera S (P2)",
+         "kind": "stairs",
+         "x": 29.8,
+         "z": 14.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej2-p2-8",
+         "name": "Aseo mujeres S2",
+         "kind": "restroom",
+         "x": 33,
+         "z": 13.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p2-9",
+         "name": "Cuarto de limpieza P2",
+         "kind": "room",
+         "x": 36.2,
+         "z": 14.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p2-10",
+         "name": "Sala 2.1",
+         "kind": "meeting",
+         "x": 2,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d10-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p2-11",
+         "name": "Sala 2.2",
+         "kind": "meeting",
+         "x": 7,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d11-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p2-12",
+         "name": "Sala 2.3",
+         "kind": "meeting",
+         "x": 12,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d12-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p2-13",
+         "name": "Sala 2.4",
+         "kind": "meeting",
+         "x": 17,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d13-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p2-14",
+         "name": "Office P2",
+         "kind": "kitchen",
+         "x": 54,
+         "z": 1,
+         "w": 8,
+         "d": 5,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p2-15",
+         "name": "Sala grande 2.1",
+         "kind": "meeting",
+         "x": 40,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d15-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p2-16",
+         "name": "Sala grande 2.2",
+         "kind": "meeting",
+         "x": 46.5,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d16-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p2-17",
+         "name": "Puestos 2A",
+         "kind": "workspace",
+         "x": 2,
+         "z": 19,
+         "w": 22,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p2-18",
+         "name": "Puestos 2B",
+         "kind": "workspace",
+         "x": 40,
+         "z": 19,
+         "w": 22,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p2-19",
+         "name": "Phone booth 2",
+         "kind": "room",
+         "x": 24.5,
+         "z": 22,
+         "w": 2,
+         "d": 2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p2-d19-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      },
+      {
+       "id": "edificio-ej2-p1",
+       "name": "Planta 1",
+       "level": 1,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 64,
+         "z": 0
+        },
+        {
+         "x": 64,
+         "z": 26
+        },
+        {
+         "x": 0,
+         "z": 26
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej2-p1-0",
+         "name": "Good lift N (P1)",
+         "kind": "lift",
+         "x": 25,
+         "z": 9,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej2-p1-1",
+         "name": "Ascensor visitas 1 (P1)",
+         "kind": "lift",
+         "x": 27.4,
+         "z": 9,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej2-p1-2",
+         "name": "Escalera N (P1)",
+         "kind": "stairs",
+         "x": 29.8,
+         "z": 9,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej2-p1-3",
+         "name": "Aseo hombres N1",
+         "kind": "restroom",
+         "x": 33,
+         "z": 9,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p1-4",
+         "name": "Aseo neutro N1",
+         "kind": "restroom",
+         "x": 36.2,
+         "z": 9,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p1-5",
+         "name": "Good lift S (P1)",
+         "kind": "lift",
+         "x": 25,
+         "z": 14.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej2-p1-6",
+         "name": "Ascensor visitas 2 (P1)",
+         "kind": "lift",
+         "x": 27.4,
+         "z": 14.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej2-p1-7",
+         "name": "Escalera S (P1)",
+         "kind": "stairs",
+         "x": 29.8,
+         "z": 14.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej2-p1-8",
+         "name": "Aseo mujeres S1",
+         "kind": "restroom",
+         "x": 33,
+         "z": 13.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p1-9",
+         "name": "Cuarto de limpieza P1",
+         "kind": "room",
+         "x": 36.2,
+         "z": 14.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p1-10",
+         "name": "Sala 1.1",
+         "kind": "meeting",
+         "x": 2,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d10-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p1-11",
+         "name": "Sala 1.2",
+         "kind": "meeting",
+         "x": 7,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d11-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p1-12",
+         "name": "Sala 1.3",
+         "kind": "meeting",
+         "x": 12,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d12-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p1-13",
+         "name": "Sala 1.4",
+         "kind": "meeting",
+         "x": 17,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d13-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p1-14",
+         "name": "Office P1",
+         "kind": "kitchen",
+         "x": 54,
+         "z": 1,
+         "w": 8,
+         "d": 5,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p1-15",
+         "name": "Sala grande 1.1",
+         "kind": "meeting",
+         "x": 40,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d15-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p1-16",
+         "name": "Sala grande 1.2",
+         "kind": "meeting",
+         "x": 46.5,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d16-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p1-17",
+         "name": "Puestos 1A",
+         "kind": "workspace",
+         "x": 2,
+         "z": 19,
+         "w": 22,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p1-18",
+         "name": "Puestos 1B",
+         "kind": "workspace",
+         "x": 40,
+         "z": 19,
+         "w": 22,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p1-19",
+         "name": "Phone booth 1",
+         "kind": "room",
+         "x": 24.5,
+         "z": 22,
+         "w": 2,
+         "d": 2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p1-d19-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      },
+      {
+       "id": "edificio-ej2-p0",
+       "name": "Planta 0",
+       "level": 0,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 64,
+         "z": 0
+        },
+        {
+         "x": 64,
+         "z": 26
+        },
+        {
+         "x": 0,
+         "z": 26
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej2-p0-0",
+         "name": "Good lift N (P0)",
+         "kind": "lift",
+         "x": 25,
+         "z": 9,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p0-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej2-p0-1",
+         "name": "Ascensor visitas 1 (P0)",
+         "kind": "lift",
+         "x": 27.4,
+         "z": 9,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p0-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej2-p0-2",
+         "name": "Escalera N (P0)",
+         "kind": "stairs",
+         "x": 29.8,
+         "z": 9,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p0-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej2-p0-3",
+         "name": "Aseo hombres N0",
+         "kind": "restroom",
+         "x": 33,
+         "z": 9,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p0-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p0-4",
+         "name": "Aseo neutro N0",
+         "kind": "restroom",
+         "x": 36.2,
+         "z": 9,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p0-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p0-5",
+         "name": "Good lift S (P0)",
+         "kind": "lift",
+         "x": 25,
+         "z": 14.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p0-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej2-p0-6",
+         "name": "Ascensor visitas 2 (P0)",
+         "kind": "lift",
+         "x": 27.4,
+         "z": 14.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p0-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej2-p0-7",
+         "name": "Escalera S (P0)",
+         "kind": "stairs",
+         "x": 29.8,
+         "z": 14.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p0-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej2-p0-8",
+         "name": "Aseo mujeres S0",
+         "kind": "restroom",
+         "x": 33,
+         "z": 13.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej2-p0-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p0-9",
+         "name": "Cuarto de limpieza P0",
+         "kind": "room",
+         "x": 36.2,
+         "z": 14.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej2-p0-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p0-10",
+         "name": "Recepción",
+         "kind": "lobby",
+         "x": 24,
+         "z": 19,
+         "w": 16,
+         "d": 6,
+         "doors": [],
+         "tags": [
+          "recepción"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p0-11",
+         "name": "Restaurante",
+         "kind": "kitchen",
+         "x": 2,
+         "z": 1,
+         "w": 20,
+         "d": 7,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p0-12",
+         "name": "Cocina del restaurante",
+         "kind": "room",
+         "x": 2,
+         "z": 8.5,
+         "w": 6,
+         "d": 4,
+         "doors": [
+          {
+           "id": "edificio-ej2-p0-d12-e",
+           "side": "e",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej2-p0-13",
+         "name": "Sala de visitas 1",
+         "kind": "meeting",
+         "x": 41,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej2-p0-d13-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p0-14",
+         "name": "Sala de visitas 2",
+         "kind": "meeting",
+         "x": 46,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej2-p0-d14-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p0-15",
+         "name": "Sala de visitas 3",
+         "kind": "meeting",
+         "x": 51,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej2-p0-d15-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p0-16",
+         "name": "Zona de espera",
+         "kind": "workspace",
+         "x": 2,
+         "z": 19,
+         "w": 20,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej2-p0-17",
+         "name": "Seguridad",
+         "kind": "room",
+         "x": 56,
+         "z": 20,
+         "w": 6,
+         "d": 5,
+         "doors": [
+          {
+           "id": "edificio-ej2-p0-d17-w",
+           "side": "w",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      }
+     ],
+     "itemTypes": [
+      {
+       "id": "t-papelera",
+       "name": "Papelera",
+       "icon": "🗑️",
+       "color": "#64748b",
+       "shape": "bin",
+       "w": 0.5,
+       "d": 0.5,
+       "dwell": 30
+      },
+      {
+       "id": "t-reciclaje",
+       "name": "Reciclaje",
+       "icon": "♻️",
+       "color": "#16a34a",
+       "shape": "bin",
+       "w": 0.6,
+       "d": 0.6,
+       "dwell": 45
+      },
+      {
+       "id": "t-vaciado",
+       "name": "Punto de vaciado",
+       "icon": "🚮",
+       "color": "#0f766e",
+       "shape": "box",
+       "w": 1.2,
+       "d": 1,
+       "dwell": 120
+      },
+      {
+       "id": "t-cuarto",
+       "name": "Cuarto de limpieza",
+       "icon": "🧹",
+       "color": "#a16207",
+       "shape": "box",
+       "w": 2,
+       "d": 2,
+       "dwell": 180
+      },
+      {
+       "id": "t-jabon",
+       "name": "Dispensador de jabón",
+       "icon": "🧴",
+       "color": "#db2777",
+       "shape": "bin",
+       "w": 0.3,
+       "d": 0.3,
+       "dwell": 20
+      },
+      {
+       "id": "t-papel",
+       "name": "Dispensador de papel",
+       "icon": "🧻",
+       "color": "#9333ea",
+       "shape": "bin",
+       "w": 0.3,
+       "d": 0.3,
+       "dwell": 20
+      },
+      {
+       "id": "t-nook",
+       "name": "Phone nook",
+       "icon": "📞",
+       "color": "#2563eb",
+       "shape": "box",
+       "w": 1.2,
+       "d": 1.2,
+       "dwell": 120
+      },
+      {
+       "id": "t-pod",
+       "name": "Meeting pod",
+       "icon": "👥",
+       "color": "#0ea5e9",
+       "shape": "box",
+       "w": 2.4,
+       "d": 2,
+       "dwell": 240
+      }
+     ],
+     "items": [],
+     "autoFurnish": true
+    },
+    "persons": [
+     {
+      "speed": 1.2,
+      "optimize": false,
+      "id": "edificio-ej2-p0",
+      "name": "Marta",
+      "color": "#17a589",
+      "tags": [
+       "limpieza",
+       "equipo norte"
+      ],
+      "startDelay": 0,
+      "returnToStart": true,
+      "stops": [
+       {
+        "id": "edificio-ej2-p0-s0",
+        "floorId": "edificio-ej2-p0",
+        "spaceId": "edificio-ej2-p0-0",
+        "dwell": 60
+       },
+       {
+        "id": "edificio-ej2-p0-s1",
+        "floorId": "edificio-ej2-p1",
+        "spaceId": "edificio-ej2-p1-3",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej2-p0-s2",
+        "floorId": "edificio-ej2-p1",
+        "spaceId": "edificio-ej2-p1-4",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej2-p0-s3",
+        "floorId": "edificio-ej2-p2",
+        "spaceId": "edificio-ej2-p2-3",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej2-p0-s4",
+        "floorId": "edificio-ej2-p2",
+        "spaceId": "edificio-ej2-p2-4",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej2-p0-s5",
+        "floorId": "edificio-ej2-p3",
+        "spaceId": "edificio-ej2-p3-3",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej2-p0-s6",
+        "floorId": "edificio-ej2-p3",
+        "spaceId": "edificio-ej2-p3-4",
+        "dwell": 300
+       }
+      ]
+     },
+     {
+      "speed": 1.2,
+      "optimize": false,
+      "id": "edificio-ej2-p1",
+      "name": "Jorge",
+      "color": "#8e44ad",
+      "tags": [
+       "limpieza",
+       "equipo sur"
+      ],
+      "startDelay": 0,
+      "returnToStart": true,
+      "stops": [
+       {
+        "id": "edificio-ej2-p1-s0",
+        "floorId": "edificio-ej2-p0",
+        "spaceId": "edificio-ej2-p0-5",
+        "dwell": 60
+       },
+       {
+        "id": "edificio-ej2-p1-s1",
+        "floorId": "edificio-ej2-p1",
+        "spaceId": "edificio-ej2-p1-8",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej2-p1-s2",
+        "floorId": "edificio-ej2-p2",
+        "spaceId": "edificio-ej2-p2-8",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej2-p1-s3",
+        "floorId": "edificio-ej2-p3",
+        "spaceId": "edificio-ej2-p3-8",
+        "dwell": 300
+       }
+      ]
+     }
+    ],
+    "rules": [
+     {
+      "id": "r-montacargas",
+      "personTag": "limpieza",
+      "spaceTag": "montacargas",
+      "mode": "only"
+     },
+     {
+      "id": "r-visitantes",
+      "personTag": "limpieza",
+      "spaceTag": "visitantes",
+      "mode": "deny"
+     },
+     {
+      "id": "r-carro",
+      "personTag": "limpieza",
+      "spaceTag": "sin carro",
+      "mode": "deny"
+     },
+     {
+      "id": "r-evitar-carro",
+      "personTag": "limpieza",
+      "spaceTag": "evitar carro",
+      "mode": "avoid"
+     },
+     {
+      "id": "r-escaleras",
+      "personTag": "limpieza",
+      "spaceTag": "escalera",
+      "mode": "deny"
+     },
+     {
+      "id": "r-lado-norte",
+      "personTag": "equipo norte",
+      "spaceTag": "lado sur",
+      "mode": "avoid"
+     },
+     {
+      "id": "r-lado-sur",
+      "personTag": "equipo sur",
+      "spaceTag": "lado norte",
+      "mode": "avoid"
+     }
+    ],
+    "startTime": 32400,
+    "areaMap": {},
+    "routines": [
+     {
+      "id": "r-banos",
+      "name": "Rutina de baños",
+      "color": "#db2777",
+      "filters": [
+       {
+        "kind": "spaces",
+        "spaceKinds": [
+         "restroom"
+        ],
+        "tags": [
+         "aseo"
+        ]
+       }
+      ],
+      "extra": [],
+      "floorIds": [],
+      "dwell": 300,
+      "rounds": [
+       "10:00",
+       "12:00",
+       "14:00"
+      ]
+     },
+     {
+      "id": "r-basura",
+      "name": "Recogida de basura",
+      "color": "#16a34a",
+      "filters": [
+       {
+        "kind": "items",
+        "typeIds": [
+         "t-papelera",
+         "t-reciclaje",
+         "t-vaciado"
+        ]
+       }
+      ],
+      "extra": [],
+      "floorIds": [],
+      "dwell": 60,
+      "rounds": []
+     },
+     {
+      "id": "r-meetings",
+      "name": "Limpieza de salas de reunión",
+      "color": "#2563eb",
+      "filters": [
+       {
+        "kind": "spaces",
+        "spaceKinds": [
+         "meeting"
+        ],
+        "tags": []
+       },
+       {
+        "kind": "items",
+        "typeIds": [
+         "t-nook",
+         "t-pod"
+        ]
+       }
+      ],
+      "extra": [],
+      "floorIds": [],
+      "dwell": 180,
+      "rounds": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "edificio-ej3",
+   "name": "Campus Sur A",
+   "data": {
+    "version": 1,
+    "name": "Campus Sur A",
+    "building": {
+     "floors": [
+      {
+       "id": "edificio-ej3-p3",
+       "name": "Planta 3",
+       "level": 3,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 50,
+         "z": 0
+        },
+        {
+         "x": 50,
+         "z": 22
+        },
+        {
+         "x": 0,
+         "z": 22
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej3-p3-0",
+         "name": "Good lift N (P3)",
+         "kind": "lift",
+         "x": 18,
+         "z": 7,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p3-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej3-p3-1",
+         "name": "Ascensor visitas 1 (P3)",
+         "kind": "lift",
+         "x": 20.4,
+         "z": 7,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p3-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej3-p3-2",
+         "name": "Escalera N (P3)",
+         "kind": "stairs",
+         "x": 22.8,
+         "z": 7,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p3-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej3-p3-3",
+         "name": "Aseo hombres N3",
+         "kind": "restroom",
+         "x": 26,
+         "z": 7,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p3-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p3-4",
+         "name": "Aseo neutro N3",
+         "kind": "restroom",
+         "x": 29.2,
+         "z": 7,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p3-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p3-5",
+         "name": "Good lift S (P3)",
+         "kind": "lift",
+         "x": 18,
+         "z": 12.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p3-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej3-p3-6",
+         "name": "Ascensor visitas 2 (P3)",
+         "kind": "lift",
+         "x": 20.4,
+         "z": 12.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p3-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej3-p3-7",
+         "name": "Escalera S (P3)",
+         "kind": "stairs",
+         "x": 22.8,
+         "z": 12.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p3-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej3-p3-8",
+         "name": "Aseo mujeres S3",
+         "kind": "restroom",
+         "x": 26,
+         "z": 11.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p3-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p3-9",
+         "name": "Cuarto de limpieza P3",
+         "kind": "room",
+         "x": 29.2,
+         "z": 12.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p3-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p3-10",
+         "name": "Sala 3.1",
+         "kind": "meeting",
+         "x": 2,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p3-d10-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p3-11",
+         "name": "Sala 3.2",
+         "kind": "meeting",
+         "x": 7,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p3-d11-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p3-12",
+         "name": "Sala 3.3",
+         "kind": "meeting",
+         "x": 12,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p3-d12-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p3-13",
+         "name": "Office P3",
+         "kind": "kitchen",
+         "x": 40,
+         "z": 1,
+         "w": 8,
+         "d": 5,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p3-14",
+         "name": "Sala grande 3.1",
+         "kind": "meeting",
+         "x": 33,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej3-p3-d14-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p3-15",
+         "name": "Puestos 3A",
+         "kind": "workspace",
+         "x": 2,
+         "z": 15,
+         "w": 15,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p3-16",
+         "name": "Puestos 3B",
+         "kind": "workspace",
+         "x": 33,
+         "z": 15,
+         "w": 15,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p3-17",
+         "name": "Phone booth 3",
+         "kind": "room",
+         "x": 17.5,
+         "z": 18,
+         "w": 2,
+         "d": 2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p3-d17-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      },
+      {
+       "id": "edificio-ej3-p2",
+       "name": "Planta 2",
+       "level": 2,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 50,
+         "z": 0
+        },
+        {
+         "x": 50,
+         "z": 22
+        },
+        {
+         "x": 0,
+         "z": 22
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej3-p2-0",
+         "name": "Good lift N (P2)",
+         "kind": "lift",
+         "x": 18,
+         "z": 7,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p2-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej3-p2-1",
+         "name": "Ascensor visitas 1 (P2)",
+         "kind": "lift",
+         "x": 20.4,
+         "z": 7,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p2-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej3-p2-2",
+         "name": "Escalera N (P2)",
+         "kind": "stairs",
+         "x": 22.8,
+         "z": 7,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p2-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej3-p2-3",
+         "name": "Aseo hombres N2",
+         "kind": "restroom",
+         "x": 26,
+         "z": 7,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p2-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p2-4",
+         "name": "Aseo neutro N2",
+         "kind": "restroom",
+         "x": 29.2,
+         "z": 7,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p2-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p2-5",
+         "name": "Good lift S (P2)",
+         "kind": "lift",
+         "x": 18,
+         "z": 12.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p2-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej3-p2-6",
+         "name": "Ascensor visitas 2 (P2)",
+         "kind": "lift",
+         "x": 20.4,
+         "z": 12.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p2-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej3-p2-7",
+         "name": "Escalera S (P2)",
+         "kind": "stairs",
+         "x": 22.8,
+         "z": 12.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p2-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej3-p2-8",
+         "name": "Aseo mujeres S2",
+         "kind": "restroom",
+         "x": 26,
+         "z": 11.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p2-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p2-9",
+         "name": "Cuarto de limpieza P2",
+         "kind": "room",
+         "x": 29.2,
+         "z": 12.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p2-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p2-10",
+         "name": "Sala 2.1",
+         "kind": "meeting",
+         "x": 2,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p2-d10-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p2-11",
+         "name": "Sala 2.2",
+         "kind": "meeting",
+         "x": 7,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p2-d11-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p2-12",
+         "name": "Sala 2.3",
+         "kind": "meeting",
+         "x": 12,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p2-d12-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p2-13",
+         "name": "Office P2",
+         "kind": "kitchen",
+         "x": 40,
+         "z": 1,
+         "w": 8,
+         "d": 5,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p2-14",
+         "name": "Sala grande 2.1",
+         "kind": "meeting",
+         "x": 33,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej3-p2-d14-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p2-15",
+         "name": "Puestos 2A",
+         "kind": "workspace",
+         "x": 2,
+         "z": 15,
+         "w": 15,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p2-16",
+         "name": "Puestos 2B",
+         "kind": "workspace",
+         "x": 33,
+         "z": 15,
+         "w": 15,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p2-17",
+         "name": "Phone booth 2",
+         "kind": "room",
+         "x": 17.5,
+         "z": 18,
+         "w": 2,
+         "d": 2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p2-d17-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      },
+      {
+       "id": "edificio-ej3-p1",
+       "name": "Planta 1",
+       "level": 1,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 50,
+         "z": 0
+        },
+        {
+         "x": 50,
+         "z": 22
+        },
+        {
+         "x": 0,
+         "z": 22
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej3-p1-0",
+         "name": "Good lift N (P1)",
+         "kind": "lift",
+         "x": 18,
+         "z": 7,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p1-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej3-p1-1",
+         "name": "Ascensor visitas 1 (P1)",
+         "kind": "lift",
+         "x": 20.4,
+         "z": 7,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p1-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej3-p1-2",
+         "name": "Escalera N (P1)",
+         "kind": "stairs",
+         "x": 22.8,
+         "z": 7,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p1-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej3-p1-3",
+         "name": "Aseo hombres N1",
+         "kind": "restroom",
+         "x": 26,
+         "z": 7,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p1-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p1-4",
+         "name": "Aseo neutro N1",
+         "kind": "restroom",
+         "x": 29.2,
+         "z": 7,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p1-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p1-5",
+         "name": "Good lift S (P1)",
+         "kind": "lift",
+         "x": 18,
+         "z": 12.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p1-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej3-p1-6",
+         "name": "Ascensor visitas 2 (P1)",
+         "kind": "lift",
+         "x": 20.4,
+         "z": 12.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p1-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej3-p1-7",
+         "name": "Escalera S (P1)",
+         "kind": "stairs",
+         "x": 22.8,
+         "z": 12.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p1-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej3-p1-8",
+         "name": "Aseo mujeres S1",
+         "kind": "restroom",
+         "x": 26,
+         "z": 11.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p1-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p1-9",
+         "name": "Cuarto de limpieza P1",
+         "kind": "room",
+         "x": 29.2,
+         "z": 12.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p1-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p1-10",
+         "name": "Sala 1.1",
+         "kind": "meeting",
+         "x": 2,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p1-d10-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p1-11",
+         "name": "Sala 1.2",
+         "kind": "meeting",
+         "x": 7,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p1-d11-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p1-12",
+         "name": "Sala 1.3",
+         "kind": "meeting",
+         "x": 12,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p1-d12-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p1-13",
+         "name": "Office P1",
+         "kind": "kitchen",
+         "x": 40,
+         "z": 1,
+         "w": 8,
+         "d": 5,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p1-14",
+         "name": "Sala grande 1.1",
+         "kind": "meeting",
+         "x": 33,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej3-p1-d14-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p1-15",
+         "name": "Puestos 1A",
+         "kind": "workspace",
+         "x": 2,
+         "z": 15,
+         "w": 15,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p1-16",
+         "name": "Puestos 1B",
+         "kind": "workspace",
+         "x": 33,
+         "z": 15,
+         "w": 15,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p1-17",
+         "name": "Phone booth 1",
+         "kind": "room",
+         "x": 17.5,
+         "z": 18,
+         "w": 2,
+         "d": 2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p1-d17-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      },
+      {
+       "id": "edificio-ej3-p0",
+       "name": "Planta 0",
+       "level": 0,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 50,
+         "z": 0
+        },
+        {
+         "x": 50,
+         "z": 22
+        },
+        {
+         "x": 0,
+         "z": 22
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej3-p0-0",
+         "name": "Good lift N (P0)",
+         "kind": "lift",
+         "x": 18,
+         "z": 7,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p0-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej3-p0-1",
+         "name": "Ascensor visitas 1 (P0)",
+         "kind": "lift",
+         "x": 20.4,
+         "z": 7,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p0-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej3-p0-2",
+         "name": "Escalera N (P0)",
+         "kind": "stairs",
+         "x": 22.8,
+         "z": 7,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p0-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej3-p0-3",
+         "name": "Aseo hombres N0",
+         "kind": "restroom",
+         "x": 26,
+         "z": 7,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p0-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p0-4",
+         "name": "Aseo neutro N0",
+         "kind": "restroom",
+         "x": 29.2,
+         "z": 7,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p0-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p0-5",
+         "name": "Good lift S (P0)",
+         "kind": "lift",
+         "x": 18,
+         "z": 12.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p0-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej3-p0-6",
+         "name": "Ascensor visitas 2 (P0)",
+         "kind": "lift",
+         "x": 20.4,
+         "z": 12.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p0-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej3-p0-7",
+         "name": "Escalera S (P0)",
+         "kind": "stairs",
+         "x": 22.8,
+         "z": 12.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p0-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej3-p0-8",
+         "name": "Aseo mujeres S0",
+         "kind": "restroom",
+         "x": 26,
+         "z": 11.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej3-p0-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p0-9",
+         "name": "Cuarto de limpieza P0",
+         "kind": "room",
+         "x": 29.2,
+         "z": 12.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej3-p0-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p0-10",
+         "name": "Recepción",
+         "kind": "lobby",
+         "x": 17,
+         "z": 15,
+         "w": 16,
+         "d": 6,
+         "doors": [],
+         "tags": [
+          "recepción"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p0-11",
+         "name": "Restaurante",
+         "kind": "kitchen",
+         "x": 2,
+         "z": 1,
+         "w": 13,
+         "d": 7,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p0-12",
+         "name": "Cocina del restaurante",
+         "kind": "room",
+         "x": 2,
+         "z": 8.5,
+         "w": 6,
+         "d": 4,
+         "doors": [
+          {
+           "id": "edificio-ej3-p0-d12-e",
+           "side": "e",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej3-p0-13",
+         "name": "Sala de visitas 1",
+         "kind": "meeting",
+         "x": 34,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej3-p0-d13-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p0-14",
+         "name": "Sala de visitas 2",
+         "kind": "meeting",
+         "x": 39,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej3-p0-d14-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p0-15",
+         "name": "Sala de visitas 3",
+         "kind": "meeting",
+         "x": 44,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej3-p0-d15-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p0-16",
+         "name": "Zona de espera",
+         "kind": "workspace",
+         "x": 2,
+         "z": 15,
+         "w": 13,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej3-p0-17",
+         "name": "Seguridad",
+         "kind": "room",
+         "x": 42,
+         "z": 16,
+         "w": 6,
+         "d": 5,
+         "doors": [
+          {
+           "id": "edificio-ej3-p0-d17-w",
+           "side": "w",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      }
+     ],
+     "itemTypes": [
+      {
+       "id": "t-papelera",
+       "name": "Papelera",
+       "icon": "🗑️",
+       "color": "#64748b",
+       "shape": "bin",
+       "w": 0.5,
+       "d": 0.5,
+       "dwell": 30
+      },
+      {
+       "id": "t-reciclaje",
+       "name": "Reciclaje",
+       "icon": "♻️",
+       "color": "#16a34a",
+       "shape": "bin",
+       "w": 0.6,
+       "d": 0.6,
+       "dwell": 45
+      },
+      {
+       "id": "t-vaciado",
+       "name": "Punto de vaciado",
+       "icon": "🚮",
+       "color": "#0f766e",
+       "shape": "box",
+       "w": 1.2,
+       "d": 1,
+       "dwell": 120
+      },
+      {
+       "id": "t-cuarto",
+       "name": "Cuarto de limpieza",
+       "icon": "🧹",
+       "color": "#a16207",
+       "shape": "box",
+       "w": 2,
+       "d": 2,
+       "dwell": 180
+      },
+      {
+       "id": "t-jabon",
+       "name": "Dispensador de jabón",
+       "icon": "🧴",
+       "color": "#db2777",
+       "shape": "bin",
+       "w": 0.3,
+       "d": 0.3,
+       "dwell": 20
+      },
+      {
+       "id": "t-papel",
+       "name": "Dispensador de papel",
+       "icon": "🧻",
+       "color": "#9333ea",
+       "shape": "bin",
+       "w": 0.3,
+       "d": 0.3,
+       "dwell": 20
+      },
+      {
+       "id": "t-nook",
+       "name": "Phone nook",
+       "icon": "📞",
+       "color": "#2563eb",
+       "shape": "box",
+       "w": 1.2,
+       "d": 1.2,
+       "dwell": 120
+      },
+      {
+       "id": "t-pod",
+       "name": "Meeting pod",
+       "icon": "👥",
+       "color": "#0ea5e9",
+       "shape": "box",
+       "w": 2.4,
+       "d": 2,
+       "dwell": 240
+      }
+     ],
+     "items": [],
+     "autoFurnish": true
+    },
+    "persons": [
+     {
+      "speed": 1.2,
+      "optimize": false,
+      "id": "edificio-ej3-p0",
+      "name": "Sofía",
+      "color": "#f39c12",
+      "tags": [
+       "limpieza",
+       "equipo norte"
+      ],
+      "startDelay": 0,
+      "returnToStart": true,
+      "stops": [
+       {
+        "id": "edificio-ej3-p0-s0",
+        "floorId": "edificio-ej3-p0",
+        "spaceId": "edificio-ej3-p0-0",
+        "dwell": 60
+       },
+       {
+        "id": "edificio-ej3-p0-s1",
+        "floorId": "edificio-ej3-p1",
+        "spaceId": "edificio-ej3-p1-3",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej3-p0-s2",
+        "floorId": "edificio-ej3-p1",
+        "spaceId": "edificio-ej3-p1-4",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej3-p0-s3",
+        "floorId": "edificio-ej3-p2",
+        "spaceId": "edificio-ej3-p2-3",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej3-p0-s4",
+        "floorId": "edificio-ej3-p2",
+        "spaceId": "edificio-ej3-p2-4",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej3-p0-s5",
+        "floorId": "edificio-ej3-p3",
+        "spaceId": "edificio-ej3-p3-3",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej3-p0-s6",
+        "floorId": "edificio-ej3-p3",
+        "spaceId": "edificio-ej3-p3-4",
+        "dwell": 300
+       }
+      ]
+     },
+     {
+      "speed": 1.2,
+      "optimize": false,
+      "id": "edificio-ej3-p1",
+      "name": "Pablo",
+      "color": "#c0392b",
+      "tags": [
+       "limpieza",
+       "equipo sur"
+      ],
+      "startDelay": 0,
+      "returnToStart": true,
+      "stops": [
+       {
+        "id": "edificio-ej3-p1-s0",
+        "floorId": "edificio-ej3-p0",
+        "spaceId": "edificio-ej3-p0-5",
+        "dwell": 60
+       },
+       {
+        "id": "edificio-ej3-p1-s1",
+        "floorId": "edificio-ej3-p1",
+        "spaceId": "edificio-ej3-p1-8",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej3-p1-s2",
+        "floorId": "edificio-ej3-p2",
+        "spaceId": "edificio-ej3-p2-8",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej3-p1-s3",
+        "floorId": "edificio-ej3-p3",
+        "spaceId": "edificio-ej3-p3-8",
+        "dwell": 300
+       }
+      ]
+     }
+    ],
+    "rules": [
+     {
+      "id": "r-montacargas",
+      "personTag": "limpieza",
+      "spaceTag": "montacargas",
+      "mode": "only"
+     },
+     {
+      "id": "r-visitantes",
+      "personTag": "limpieza",
+      "spaceTag": "visitantes",
+      "mode": "deny"
+     },
+     {
+      "id": "r-carro",
+      "personTag": "limpieza",
+      "spaceTag": "sin carro",
+      "mode": "deny"
+     },
+     {
+      "id": "r-evitar-carro",
+      "personTag": "limpieza",
+      "spaceTag": "evitar carro",
+      "mode": "avoid"
+     },
+     {
+      "id": "r-escaleras",
+      "personTag": "limpieza",
+      "spaceTag": "escalera",
+      "mode": "deny"
+     },
+     {
+      "id": "r-lado-norte",
+      "personTag": "equipo norte",
+      "spaceTag": "lado sur",
+      "mode": "avoid"
+     },
+     {
+      "id": "r-lado-sur",
+      "personTag": "equipo sur",
+      "spaceTag": "lado norte",
+      "mode": "avoid"
+     }
+    ],
+    "startTime": 32400,
+    "areaMap": {},
+    "routines": [
+     {
+      "id": "r-banos",
+      "name": "Rutina de baños",
+      "color": "#db2777",
+      "filters": [
+       {
+        "kind": "spaces",
+        "spaceKinds": [
+         "restroom"
+        ],
+        "tags": [
+         "aseo"
+        ]
+       }
+      ],
+      "extra": [],
+      "floorIds": [],
+      "dwell": 300,
+      "rounds": [
+       "10:00",
+       "12:00",
+       "14:00"
+      ]
+     },
+     {
+      "id": "r-basura",
+      "name": "Recogida de basura",
+      "color": "#16a34a",
+      "filters": [
+       {
+        "kind": "items",
+        "typeIds": [
+         "t-papelera",
+         "t-reciclaje",
+         "t-vaciado"
+        ]
+       }
+      ],
+      "extra": [],
+      "floorIds": [],
+      "dwell": 60,
+      "rounds": []
+     },
+     {
+      "id": "r-meetings",
+      "name": "Limpieza de salas de reunión",
+      "color": "#2563eb",
+      "filters": [
+       {
+        "kind": "spaces",
+        "spaceKinds": [
+         "meeting"
+        ],
+        "tags": []
+       },
+       {
+        "kind": "items",
+        "typeIds": [
+         "t-nook",
+         "t-pod"
+        ]
+       }
+      ],
+      "extra": [],
+      "floorIds": [],
+      "dwell": 180,
+      "rounds": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "edificio-ej4",
+   "name": "Campus Sur B",
+   "data": {
+    "version": 1,
+    "name": "Campus Sur B",
+    "building": {
+     "floors": [
+      {
+       "id": "edificio-ej4-p3",
+       "name": "Planta 3",
+       "level": 3,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 60,
+         "z": 0
+        },
+        {
+         "x": 60,
+         "z": 25
+        },
+        {
+         "x": 0,
+         "z": 25
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej4-p3-0",
+         "name": "Good lift N (P3)",
+         "kind": "lift",
+         "x": 23,
+         "z": 8.5,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej4-p3-1",
+         "name": "Ascensor visitas 1 (P3)",
+         "kind": "lift",
+         "x": 25.4,
+         "z": 8.5,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej4-p3-2",
+         "name": "Escalera N (P3)",
+         "kind": "stairs",
+         "x": 27.8,
+         "z": 8.5,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej4-p3-3",
+         "name": "Aseo hombres N3",
+         "kind": "restroom",
+         "x": 31,
+         "z": 8.5,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p3-4",
+         "name": "Aseo neutro N3",
+         "kind": "restroom",
+         "x": 34.2,
+         "z": 8.5,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p3-5",
+         "name": "Good lift S (P3)",
+         "kind": "lift",
+         "x": 23,
+         "z": 14.3,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej4-p3-6",
+         "name": "Ascensor visitas 2 (P3)",
+         "kind": "lift",
+         "x": 25.4,
+         "z": 14.3,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej4-p3-7",
+         "name": "Escalera S (P3)",
+         "kind": "stairs",
+         "x": 27.8,
+         "z": 13.9,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej4-p3-8",
+         "name": "Aseo mujeres S3",
+         "kind": "restroom",
+         "x": 31,
+         "z": 13.3,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p3-9",
+         "name": "Cuarto de limpieza P3",
+         "kind": "room",
+         "x": 34.2,
+         "z": 13.9,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p3-10",
+         "name": "Sala 3.1",
+         "kind": "meeting",
+         "x": 2,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d10-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p3-11",
+         "name": "Sala 3.2",
+         "kind": "meeting",
+         "x": 7,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d11-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p3-12",
+         "name": "Sala 3.3",
+         "kind": "meeting",
+         "x": 12,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d12-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p3-13",
+         "name": "Sala 3.4",
+         "kind": "meeting",
+         "x": 17,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d13-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p3-14",
+         "name": "Office P3",
+         "kind": "kitchen",
+         "x": 50,
+         "z": 1,
+         "w": 8,
+         "d": 5,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p3-15",
+         "name": "Sala grande 3.1",
+         "kind": "meeting",
+         "x": 38,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d15-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p3-16",
+         "name": "Puestos 3A",
+         "kind": "workspace",
+         "x": 2,
+         "z": 18,
+         "w": 20,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p3-17",
+         "name": "Puestos 3B",
+         "kind": "workspace",
+         "x": 38,
+         "z": 18,
+         "w": 20,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p3-18",
+         "name": "Phone booth 3",
+         "kind": "room",
+         "x": 22.5,
+         "z": 21,
+         "w": 2,
+         "d": 2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p3-d18-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      },
+      {
+       "id": "edificio-ej4-p2",
+       "name": "Planta 2",
+       "level": 2,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 60,
+         "z": 0
+        },
+        {
+         "x": 60,
+         "z": 25
+        },
+        {
+         "x": 0,
+         "z": 25
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej4-p2-0",
+         "name": "Good lift N (P2)",
+         "kind": "lift",
+         "x": 23,
+         "z": 8.5,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej4-p2-1",
+         "name": "Ascensor visitas 1 (P2)",
+         "kind": "lift",
+         "x": 25.4,
+         "z": 8.5,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej4-p2-2",
+         "name": "Escalera N (P2)",
+         "kind": "stairs",
+         "x": 27.8,
+         "z": 8.5,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej4-p2-3",
+         "name": "Aseo hombres N2",
+         "kind": "restroom",
+         "x": 31,
+         "z": 8.5,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p2-4",
+         "name": "Aseo neutro N2",
+         "kind": "restroom",
+         "x": 34.2,
+         "z": 8.5,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p2-5",
+         "name": "Good lift S (P2)",
+         "kind": "lift",
+         "x": 23,
+         "z": 14.3,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej4-p2-6",
+         "name": "Ascensor visitas 2 (P2)",
+         "kind": "lift",
+         "x": 25.4,
+         "z": 14.3,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej4-p2-7",
+         "name": "Escalera S (P2)",
+         "kind": "stairs",
+         "x": 27.8,
+         "z": 13.9,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej4-p2-8",
+         "name": "Aseo mujeres S2",
+         "kind": "restroom",
+         "x": 31,
+         "z": 13.3,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p2-9",
+         "name": "Cuarto de limpieza P2",
+         "kind": "room",
+         "x": 34.2,
+         "z": 13.9,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p2-10",
+         "name": "Sala 2.1",
+         "kind": "meeting",
+         "x": 2,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d10-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p2-11",
+         "name": "Sala 2.2",
+         "kind": "meeting",
+         "x": 7,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d11-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p2-12",
+         "name": "Sala 2.3",
+         "kind": "meeting",
+         "x": 12,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d12-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p2-13",
+         "name": "Sala 2.4",
+         "kind": "meeting",
+         "x": 17,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d13-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p2-14",
+         "name": "Office P2",
+         "kind": "kitchen",
+         "x": 50,
+         "z": 1,
+         "w": 8,
+         "d": 5,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p2-15",
+         "name": "Sala grande 2.1",
+         "kind": "meeting",
+         "x": 38,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d15-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p2-16",
+         "name": "Puestos 2A",
+         "kind": "workspace",
+         "x": 2,
+         "z": 18,
+         "w": 20,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p2-17",
+         "name": "Puestos 2B",
+         "kind": "workspace",
+         "x": 38,
+         "z": 18,
+         "w": 20,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p2-18",
+         "name": "Phone booth 2",
+         "kind": "room",
+         "x": 22.5,
+         "z": 21,
+         "w": 2,
+         "d": 2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p2-d18-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      },
+      {
+       "id": "edificio-ej4-p1",
+       "name": "Planta 1",
+       "level": 1,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 60,
+         "z": 0
+        },
+        {
+         "x": 60,
+         "z": 25
+        },
+        {
+         "x": 0,
+         "z": 25
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej4-p1-0",
+         "name": "Good lift N (P1)",
+         "kind": "lift",
+         "x": 23,
+         "z": 8.5,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej4-p1-1",
+         "name": "Ascensor visitas 1 (P1)",
+         "kind": "lift",
+         "x": 25.4,
+         "z": 8.5,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej4-p1-2",
+         "name": "Escalera N (P1)",
+         "kind": "stairs",
+         "x": 27.8,
+         "z": 8.5,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej4-p1-3",
+         "name": "Aseo hombres N1",
+         "kind": "restroom",
+         "x": 31,
+         "z": 8.5,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p1-4",
+         "name": "Aseo neutro N1",
+         "kind": "restroom",
+         "x": 34.2,
+         "z": 8.5,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p1-5",
+         "name": "Good lift S (P1)",
+         "kind": "lift",
+         "x": 23,
+         "z": 14.3,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej4-p1-6",
+         "name": "Ascensor visitas 2 (P1)",
+         "kind": "lift",
+         "x": 25.4,
+         "z": 14.3,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej4-p1-7",
+         "name": "Escalera S (P1)",
+         "kind": "stairs",
+         "x": 27.8,
+         "z": 13.9,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej4-p1-8",
+         "name": "Aseo mujeres S1",
+         "kind": "restroom",
+         "x": 31,
+         "z": 13.3,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p1-9",
+         "name": "Cuarto de limpieza P1",
+         "kind": "room",
+         "x": 34.2,
+         "z": 13.9,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p1-10",
+         "name": "Sala 1.1",
+         "kind": "meeting",
+         "x": 2,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d10-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p1-11",
+         "name": "Sala 1.2",
+         "kind": "meeting",
+         "x": 7,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d11-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p1-12",
+         "name": "Sala 1.3",
+         "kind": "meeting",
+         "x": 12,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d12-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p1-13",
+         "name": "Sala 1.4",
+         "kind": "meeting",
+         "x": 17,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d13-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p1-14",
+         "name": "Office P1",
+         "kind": "kitchen",
+         "x": 50,
+         "z": 1,
+         "w": 8,
+         "d": 5,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p1-15",
+         "name": "Sala grande 1.1",
+         "kind": "meeting",
+         "x": 38,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d15-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p1-16",
+         "name": "Puestos 1A",
+         "kind": "workspace",
+         "x": 2,
+         "z": 18,
+         "w": 20,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p1-17",
+         "name": "Puestos 1B",
+         "kind": "workspace",
+         "x": 38,
+         "z": 18,
+         "w": 20,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p1-18",
+         "name": "Phone booth 1",
+         "kind": "room",
+         "x": 22.5,
+         "z": 21,
+         "w": 2,
+         "d": 2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p1-d18-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      },
+      {
+       "id": "edificio-ej4-p0",
+       "name": "Planta 0",
+       "level": 0,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 60,
+         "z": 0
+        },
+        {
+         "x": 60,
+         "z": 25
+        },
+        {
+         "x": 0,
+         "z": 25
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej4-p0-0",
+         "name": "Good lift N (P0)",
+         "kind": "lift",
+         "x": 23,
+         "z": 8.5,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p0-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej4-p0-1",
+         "name": "Ascensor visitas 1 (P0)",
+         "kind": "lift",
+         "x": 25.4,
+         "z": 8.5,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p0-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej4-p0-2",
+         "name": "Escalera N (P0)",
+         "kind": "stairs",
+         "x": 27.8,
+         "z": 8.5,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p0-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej4-p0-3",
+         "name": "Aseo hombres N0",
+         "kind": "restroom",
+         "x": 31,
+         "z": 8.5,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p0-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p0-4",
+         "name": "Aseo neutro N0",
+         "kind": "restroom",
+         "x": 34.2,
+         "z": 8.5,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p0-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p0-5",
+         "name": "Good lift S (P0)",
+         "kind": "lift",
+         "x": 23,
+         "z": 14.3,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p0-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej4-p0-6",
+         "name": "Ascensor visitas 2 (P0)",
+         "kind": "lift",
+         "x": 25.4,
+         "z": 14.3,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p0-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej4-p0-7",
+         "name": "Escalera S (P0)",
+         "kind": "stairs",
+         "x": 27.8,
+         "z": 13.9,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p0-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej4-p0-8",
+         "name": "Aseo mujeres S0",
+         "kind": "restroom",
+         "x": 31,
+         "z": 13.3,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej4-p0-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p0-9",
+         "name": "Cuarto de limpieza P0",
+         "kind": "room",
+         "x": 34.2,
+         "z": 13.9,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej4-p0-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p0-10",
+         "name": "Recepción",
+         "kind": "lobby",
+         "x": 22,
+         "z": 18,
+         "w": 16,
+         "d": 6,
+         "doors": [],
+         "tags": [
+          "recepción"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p0-11",
+         "name": "Restaurante",
+         "kind": "kitchen",
+         "x": 2,
+         "z": 1,
+         "w": 18,
+         "d": 7,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p0-12",
+         "name": "Cocina del restaurante",
+         "kind": "room",
+         "x": 2,
+         "z": 8.5,
+         "w": 6,
+         "d": 4,
+         "doors": [
+          {
+           "id": "edificio-ej4-p0-d12-e",
+           "side": "e",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej4-p0-13",
+         "name": "Sala de visitas 1",
+         "kind": "meeting",
+         "x": 39,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej4-p0-d13-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p0-14",
+         "name": "Sala de visitas 2",
+         "kind": "meeting",
+         "x": 44,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej4-p0-d14-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p0-15",
+         "name": "Sala de visitas 3",
+         "kind": "meeting",
+         "x": 49,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej4-p0-d15-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p0-16",
+         "name": "Zona de espera",
+         "kind": "workspace",
+         "x": 2,
+         "z": 18,
+         "w": 18,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej4-p0-17",
+         "name": "Seguridad",
+         "kind": "room",
+         "x": 52,
+         "z": 19,
+         "w": 6,
+         "d": 5,
+         "doors": [
+          {
+           "id": "edificio-ej4-p0-d17-w",
+           "side": "w",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      }
+     ],
+     "itemTypes": [
+      {
+       "id": "t-papelera",
+       "name": "Papelera",
+       "icon": "🗑️",
+       "color": "#64748b",
+       "shape": "bin",
+       "w": 0.5,
+       "d": 0.5,
+       "dwell": 30
+      },
+      {
+       "id": "t-reciclaje",
+       "name": "Reciclaje",
+       "icon": "♻️",
+       "color": "#16a34a",
+       "shape": "bin",
+       "w": 0.6,
+       "d": 0.6,
+       "dwell": 45
+      },
+      {
+       "id": "t-vaciado",
+       "name": "Punto de vaciado",
+       "icon": "🚮",
+       "color": "#0f766e",
+       "shape": "box",
+       "w": 1.2,
+       "d": 1,
+       "dwell": 120
+      },
+      {
+       "id": "t-cuarto",
+       "name": "Cuarto de limpieza",
+       "icon": "🧹",
+       "color": "#a16207",
+       "shape": "box",
+       "w": 2,
+       "d": 2,
+       "dwell": 180
+      },
+      {
+       "id": "t-jabon",
+       "name": "Dispensador de jabón",
+       "icon": "🧴",
+       "color": "#db2777",
+       "shape": "bin",
+       "w": 0.3,
+       "d": 0.3,
+       "dwell": 20
+      },
+      {
+       "id": "t-papel",
+       "name": "Dispensador de papel",
+       "icon": "🧻",
+       "color": "#9333ea",
+       "shape": "bin",
+       "w": 0.3,
+       "d": 0.3,
+       "dwell": 20
+      },
+      {
+       "id": "t-nook",
+       "name": "Phone nook",
+       "icon": "📞",
+       "color": "#2563eb",
+       "shape": "box",
+       "w": 1.2,
+       "d": 1.2,
+       "dwell": 120
+      },
+      {
+       "id": "t-pod",
+       "name": "Meeting pod",
+       "icon": "👥",
+       "color": "#0ea5e9",
+       "shape": "box",
+       "w": 2.4,
+       "d": 2,
+       "dwell": 240
+      }
+     ],
+     "items": [],
+     "autoFurnish": true
+    },
+    "persons": [
+     {
+      "speed": 1.2,
+      "optimize": false,
+      "id": "edificio-ej4-p0",
+      "name": "Lucía",
+      "color": "#16a085",
+      "tags": [
+       "limpieza",
+       "equipo norte"
+      ],
+      "startDelay": 0,
+      "returnToStart": true,
+      "stops": [
+       {
+        "id": "edificio-ej4-p0-s0",
+        "floorId": "edificio-ej4-p0",
+        "spaceId": "edificio-ej4-p0-0",
+        "dwell": 60
+       },
+       {
+        "id": "edificio-ej4-p0-s1",
+        "floorId": "edificio-ej4-p1",
+        "spaceId": "edificio-ej4-p1-3",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej4-p0-s2",
+        "floorId": "edificio-ej4-p1",
+        "spaceId": "edificio-ej4-p1-4",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej4-p0-s3",
+        "floorId": "edificio-ej4-p2",
+        "spaceId": "edificio-ej4-p2-3",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej4-p0-s4",
+        "floorId": "edificio-ej4-p2",
+        "spaceId": "edificio-ej4-p2-4",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej4-p0-s5",
+        "floorId": "edificio-ej4-p3",
+        "spaceId": "edificio-ej4-p3-3",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej4-p0-s6",
+        "floorId": "edificio-ej4-p3",
+        "spaceId": "edificio-ej4-p3-4",
+        "dwell": 300
+       }
+      ]
+     },
+     {
+      "speed": 1.2,
+      "optimize": false,
+      "id": "edificio-ej4-p1",
+      "name": "Diego",
+      "color": "#d35400",
+      "tags": [
+       "limpieza",
+       "equipo sur"
+      ],
+      "startDelay": 0,
+      "returnToStart": true,
+      "stops": [
+       {
+        "id": "edificio-ej4-p1-s0",
+        "floorId": "edificio-ej4-p0",
+        "spaceId": "edificio-ej4-p0-5",
+        "dwell": 60
+       },
+       {
+        "id": "edificio-ej4-p1-s1",
+        "floorId": "edificio-ej4-p1",
+        "spaceId": "edificio-ej4-p1-8",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej4-p1-s2",
+        "floorId": "edificio-ej4-p2",
+        "spaceId": "edificio-ej4-p2-8",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej4-p1-s3",
+        "floorId": "edificio-ej4-p3",
+        "spaceId": "edificio-ej4-p3-8",
+        "dwell": 300
+       }
+      ]
+     }
+    ],
+    "rules": [
+     {
+      "id": "r-montacargas",
+      "personTag": "limpieza",
+      "spaceTag": "montacargas",
+      "mode": "only"
+     },
+     {
+      "id": "r-visitantes",
+      "personTag": "limpieza",
+      "spaceTag": "visitantes",
+      "mode": "deny"
+     },
+     {
+      "id": "r-carro",
+      "personTag": "limpieza",
+      "spaceTag": "sin carro",
+      "mode": "deny"
+     },
+     {
+      "id": "r-evitar-carro",
+      "personTag": "limpieza",
+      "spaceTag": "evitar carro",
+      "mode": "avoid"
+     },
+     {
+      "id": "r-escaleras",
+      "personTag": "limpieza",
+      "spaceTag": "escalera",
+      "mode": "deny"
+     },
+     {
+      "id": "r-lado-norte",
+      "personTag": "equipo norte",
+      "spaceTag": "lado sur",
+      "mode": "avoid"
+     },
+     {
+      "id": "r-lado-sur",
+      "personTag": "equipo sur",
+      "spaceTag": "lado norte",
+      "mode": "avoid"
+     }
+    ],
+    "startTime": 32400,
+    "areaMap": {},
+    "routines": [
+     {
+      "id": "r-banos",
+      "name": "Rutina de baños",
+      "color": "#db2777",
+      "filters": [
+       {
+        "kind": "spaces",
+        "spaceKinds": [
+         "restroom"
+        ],
+        "tags": [
+         "aseo"
+        ]
+       }
+      ],
+      "extra": [],
+      "floorIds": [],
+      "dwell": 300,
+      "rounds": [
+       "10:00",
+       "12:00",
+       "14:00"
+      ]
+     },
+     {
+      "id": "r-basura",
+      "name": "Recogida de basura",
+      "color": "#16a34a",
+      "filters": [
+       {
+        "kind": "items",
+        "typeIds": [
+         "t-papelera",
+         "t-reciclaje",
+         "t-vaciado"
+        ]
+       }
+      ],
+      "extra": [],
+      "floorIds": [],
+      "dwell": 60,
+      "rounds": []
+     },
+     {
+      "id": "r-meetings",
+      "name": "Limpieza de salas de reunión",
+      "color": "#2563eb",
+      "filters": [
+       {
+        "kind": "spaces",
+        "spaceKinds": [
+         "meeting"
+        ],
+        "tags": []
+       },
+       {
+        "kind": "items",
+        "typeIds": [
+         "t-nook",
+         "t-pod"
+        ]
+       }
+      ],
+      "extra": [],
+      "floorIds": [],
+      "dwell": 180,
+      "rounds": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "edificio-ej5",
+   "name": "Edificio Castellana",
+   "data": {
+    "version": 1,
+    "name": "Edificio Castellana",
+    "building": {
+     "floors": [
+      {
+       "id": "edificio-ej5-p3",
+       "name": "Planta 3",
+       "level": 3,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 70,
+         "z": 0
+        },
+        {
+         "x": 70,
+         "z": 28
+        },
+        {
+         "x": 0,
+         "z": 28
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej5-p3-0",
+         "name": "Good lift N (P3)",
+         "kind": "lift",
+         "x": 28,
+         "z": 10,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej5-p3-1",
+         "name": "Ascensor visitas 1 (P3)",
+         "kind": "lift",
+         "x": 30.4,
+         "z": 10,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej5-p3-2",
+         "name": "Escalera N (P3)",
+         "kind": "stairs",
+         "x": 32.8,
+         "z": 10,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej5-p3-3",
+         "name": "Aseo hombres N3",
+         "kind": "restroom",
+         "x": 36,
+         "z": 10,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p3-4",
+         "name": "Aseo neutro N3",
+         "kind": "restroom",
+         "x": 39.2,
+         "z": 10,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p3-5",
+         "name": "Good lift S (P3)",
+         "kind": "lift",
+         "x": 28,
+         "z": 15.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej5-p3-6",
+         "name": "Ascensor visitas 2 (P3)",
+         "kind": "lift",
+         "x": 30.4,
+         "z": 15.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej5-p3-7",
+         "name": "Escalera S (P3)",
+         "kind": "stairs",
+         "x": 32.8,
+         "z": 15.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej5-p3-8",
+         "name": "Aseo mujeres S3",
+         "kind": "restroom",
+         "x": 36,
+         "z": 14.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p3-9",
+         "name": "Cuarto de limpieza P3",
+         "kind": "room",
+         "x": 39.2,
+         "z": 15.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p3-10",
+         "name": "Sala 3.1",
+         "kind": "meeting",
+         "x": 2,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d10-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p3-11",
+         "name": "Sala 3.2",
+         "kind": "meeting",
+         "x": 7,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d11-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p3-12",
+         "name": "Sala 3.3",
+         "kind": "meeting",
+         "x": 12,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d12-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p3-13",
+         "name": "Sala 3.4",
+         "kind": "meeting",
+         "x": 17,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d13-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p3-14",
+         "name": "Sala 3.5",
+         "kind": "meeting",
+         "x": 22,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d14-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p3-15",
+         "name": "Office P3",
+         "kind": "kitchen",
+         "x": 60,
+         "z": 1,
+         "w": 8,
+         "d": 5,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p3-16",
+         "name": "Sala grande 3.1",
+         "kind": "meeting",
+         "x": 43,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d16-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p3-17",
+         "name": "Sala grande 3.2",
+         "kind": "meeting",
+         "x": 49.5,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d17-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p3-18",
+         "name": "Puestos 3A",
+         "kind": "workspace",
+         "x": 2,
+         "z": 21,
+         "w": 25,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p3-19",
+         "name": "Puestos 3B",
+         "kind": "workspace",
+         "x": 43,
+         "z": 21,
+         "w": 25,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p3-20",
+         "name": "Phone booth 3",
+         "kind": "room",
+         "x": 27.5,
+         "z": 24,
+         "w": 2,
+         "d": 2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p3-d20-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      },
+      {
+       "id": "edificio-ej5-p2",
+       "name": "Planta 2",
+       "level": 2,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 70,
+         "z": 0
+        },
+        {
+         "x": 70,
+         "z": 28
+        },
+        {
+         "x": 0,
+         "z": 28
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej5-p2-0",
+         "name": "Good lift N (P2)",
+         "kind": "lift",
+         "x": 28,
+         "z": 10,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej5-p2-1",
+         "name": "Ascensor visitas 1 (P2)",
+         "kind": "lift",
+         "x": 30.4,
+         "z": 10,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej5-p2-2",
+         "name": "Escalera N (P2)",
+         "kind": "stairs",
+         "x": 32.8,
+         "z": 10,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej5-p2-3",
+         "name": "Aseo hombres N2",
+         "kind": "restroom",
+         "x": 36,
+         "z": 10,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p2-4",
+         "name": "Aseo neutro N2",
+         "kind": "restroom",
+         "x": 39.2,
+         "z": 10,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p2-5",
+         "name": "Good lift S (P2)",
+         "kind": "lift",
+         "x": 28,
+         "z": 15.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej5-p2-6",
+         "name": "Ascensor visitas 2 (P2)",
+         "kind": "lift",
+         "x": 30.4,
+         "z": 15.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej5-p2-7",
+         "name": "Escalera S (P2)",
+         "kind": "stairs",
+         "x": 32.8,
+         "z": 15.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej5-p2-8",
+         "name": "Aseo mujeres S2",
+         "kind": "restroom",
+         "x": 36,
+         "z": 14.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p2-9",
+         "name": "Cuarto de limpieza P2",
+         "kind": "room",
+         "x": 39.2,
+         "z": 15.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p2-10",
+         "name": "Sala 2.1",
+         "kind": "meeting",
+         "x": 2,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d10-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p2-11",
+         "name": "Sala 2.2",
+         "kind": "meeting",
+         "x": 7,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d11-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p2-12",
+         "name": "Sala 2.3",
+         "kind": "meeting",
+         "x": 12,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d12-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p2-13",
+         "name": "Sala 2.4",
+         "kind": "meeting",
+         "x": 17,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d13-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p2-14",
+         "name": "Sala 2.5",
+         "kind": "meeting",
+         "x": 22,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d14-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p2-15",
+         "name": "Office P2",
+         "kind": "kitchen",
+         "x": 60,
+         "z": 1,
+         "w": 8,
+         "d": 5,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p2-16",
+         "name": "Sala grande 2.1",
+         "kind": "meeting",
+         "x": 43,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d16-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p2-17",
+         "name": "Sala grande 2.2",
+         "kind": "meeting",
+         "x": 49.5,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d17-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p2-18",
+         "name": "Puestos 2A",
+         "kind": "workspace",
+         "x": 2,
+         "z": 21,
+         "w": 25,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p2-19",
+         "name": "Puestos 2B",
+         "kind": "workspace",
+         "x": 43,
+         "z": 21,
+         "w": 25,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p2-20",
+         "name": "Phone booth 2",
+         "kind": "room",
+         "x": 27.5,
+         "z": 24,
+         "w": 2,
+         "d": 2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p2-d20-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      },
+      {
+       "id": "edificio-ej5-p1",
+       "name": "Planta 1",
+       "level": 1,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 70,
+         "z": 0
+        },
+        {
+         "x": 70,
+         "z": 28
+        },
+        {
+         "x": 0,
+         "z": 28
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej5-p1-0",
+         "name": "Good lift N (P1)",
+         "kind": "lift",
+         "x": 28,
+         "z": 10,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej5-p1-1",
+         "name": "Ascensor visitas 1 (P1)",
+         "kind": "lift",
+         "x": 30.4,
+         "z": 10,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej5-p1-2",
+         "name": "Escalera N (P1)",
+         "kind": "stairs",
+         "x": 32.8,
+         "z": 10,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej5-p1-3",
+         "name": "Aseo hombres N1",
+         "kind": "restroom",
+         "x": 36,
+         "z": 10,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p1-4",
+         "name": "Aseo neutro N1",
+         "kind": "restroom",
+         "x": 39.2,
+         "z": 10,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p1-5",
+         "name": "Good lift S (P1)",
+         "kind": "lift",
+         "x": 28,
+         "z": 15.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej5-p1-6",
+         "name": "Ascensor visitas 2 (P1)",
+         "kind": "lift",
+         "x": 30.4,
+         "z": 15.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej5-p1-7",
+         "name": "Escalera S (P1)",
+         "kind": "stairs",
+         "x": 32.8,
+         "z": 15.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej5-p1-8",
+         "name": "Aseo mujeres S1",
+         "kind": "restroom",
+         "x": 36,
+         "z": 14.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p1-9",
+         "name": "Cuarto de limpieza P1",
+         "kind": "room",
+         "x": 39.2,
+         "z": 15.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p1-10",
+         "name": "Sala 1.1",
+         "kind": "meeting",
+         "x": 2,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d10-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p1-11",
+         "name": "Sala 1.2",
+         "kind": "meeting",
+         "x": 7,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d11-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p1-12",
+         "name": "Sala 1.3",
+         "kind": "meeting",
+         "x": 12,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d12-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p1-13",
+         "name": "Sala 1.4",
+         "kind": "meeting",
+         "x": 17,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d13-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p1-14",
+         "name": "Sala 1.5",
+         "kind": "meeting",
+         "x": 22,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d14-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p1-15",
+         "name": "Office P1",
+         "kind": "kitchen",
+         "x": 60,
+         "z": 1,
+         "w": 8,
+         "d": 5,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p1-16",
+         "name": "Sala grande 1.1",
+         "kind": "meeting",
+         "x": 43,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d16-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p1-17",
+         "name": "Sala grande 1.2",
+         "kind": "meeting",
+         "x": 49.5,
+         "z": 1,
+         "w": 6,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d17-s",
+           "side": "s",
+           "offset": 0.3,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p1-18",
+         "name": "Puestos 1A",
+         "kind": "workspace",
+         "x": 2,
+         "z": 21,
+         "w": 25,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p1-19",
+         "name": "Puestos 1B",
+         "kind": "workspace",
+         "x": 43,
+         "z": 21,
+         "w": 25,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p1-20",
+         "name": "Phone booth 1",
+         "kind": "room",
+         "x": 27.5,
+         "z": 24,
+         "w": 2,
+         "d": 2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p1-d20-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      },
+      {
+       "id": "edificio-ej5-p0",
+       "name": "Planta 0",
+       "level": 0,
+       "northDir": "-z",
+       "outline": [
+        {
+         "x": 0,
+         "z": 0
+        },
+        {
+         "x": 70,
+         "z": 0
+        },
+        {
+         "x": 70,
+         "z": 28
+        },
+        {
+         "x": 0,
+         "z": 28
+        }
+       ],
+       "walls": [],
+       "spaces": [
+        {
+         "id": "edificio-ej5-p0-0",
+         "name": "Good lift N (P0)",
+         "kind": "lift",
+         "x": 28,
+         "z": 10,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p0-d0-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado norte"
+         ],
+         "connectorId": "good-lift-n"
+        },
+        {
+         "id": "edificio-ej5-p0-1",
+         "name": "Ascensor visitas 1 (P0)",
+         "kind": "lift",
+         "x": 30.4,
+         "z": 10,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p0-d1-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-1"
+        },
+        {
+         "id": "edificio-ej5-p0-2",
+         "name": "Escalera N (P0)",
+         "kind": "stairs",
+         "x": 32.8,
+         "z": 10,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p0-d2-n",
+           "side": "n",
+           "offset": 0.2,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-n"
+        },
+        {
+         "id": "edificio-ej5-p0-3",
+         "name": "Aseo hombres N0",
+         "kind": "restroom",
+         "x": 36,
+         "z": 10,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p0-d3-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "hombres"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p0-4",
+         "name": "Aseo neutro N0",
+         "kind": "restroom",
+         "x": 39.2,
+         "z": 10,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p0-d4-n",
+           "side": "n",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mixto"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p0-5",
+         "name": "Good lift S (P0)",
+         "kind": "lift",
+         "x": 28,
+         "z": 15.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p0-d5-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "montacargas",
+          "lado sur"
+         ],
+         "connectorId": "good-lift-s"
+        },
+        {
+         "id": "edificio-ej5-p0-6",
+         "name": "Ascensor visitas 2 (P0)",
+         "kind": "lift",
+         "x": 30.4,
+         "z": 15.8,
+         "w": 2.2,
+         "d": 2.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p0-d6-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "visitantes"
+         ],
+         "connectorId": "ascensor-2"
+        },
+        {
+         "id": "edificio-ej5-p0-7",
+         "name": "Escalera S (P0)",
+         "kind": "stairs",
+         "x": 32.8,
+         "z": 15.4,
+         "w": 3,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p0-d7-s",
+           "side": "s",
+           "offset": 0.8,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "escalera"
+         ],
+         "connectorId": "escalera-s"
+        },
+        {
+         "id": "edificio-ej5-p0-8",
+         "name": "Aseo mujeres S0",
+         "kind": "restroom",
+         "x": 36,
+         "z": 14.8,
+         "w": 3,
+         "d": 3.2,
+         "doors": [
+          {
+           "id": "edificio-ej5-p0-d8-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "aseo",
+          "mujeres"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p0-9",
+         "name": "Cuarto de limpieza P0",
+         "kind": "room",
+         "x": 39.2,
+         "z": 15.4,
+         "w": 2.4,
+         "d": 2.6,
+         "doors": [
+          {
+           "id": "edificio-ej5-p0-d9-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "limpieza"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p0-10",
+         "name": "Recepción",
+         "kind": "lobby",
+         "x": 27,
+         "z": 21,
+         "w": 16,
+         "d": 6,
+         "doors": [],
+         "tags": [
+          "recepción"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p0-11",
+         "name": "Restaurante",
+         "kind": "kitchen",
+         "x": 2,
+         "z": 1,
+         "w": 23,
+         "d": 7,
+         "doors": [],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p0-12",
+         "name": "Cocina del restaurante",
+         "kind": "room",
+         "x": 2,
+         "z": 8.5,
+         "w": 6,
+         "d": 4,
+         "doors": [
+          {
+           "id": "edificio-ej5-p0-d12-e",
+           "side": "e",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": [
+          "cocina"
+         ]
+        },
+        {
+         "id": "edificio-ej5-p0-13",
+         "name": "Sala de visitas 1",
+         "kind": "meeting",
+         "x": 44,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej5-p0-d13-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p0-14",
+         "name": "Sala de visitas 2",
+         "kind": "meeting",
+         "x": 49,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej5-p0-d14-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p0-15",
+         "name": "Sala de visitas 3",
+         "kind": "meeting",
+         "x": 54,
+         "z": 1,
+         "w": 4.5,
+         "d": 4.5,
+         "doors": [
+          {
+           "id": "edificio-ej5-p0-d15-s",
+           "side": "s",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p0-16",
+         "name": "Zona de espera",
+         "kind": "workspace",
+         "x": 2,
+         "z": 21,
+         "w": 23,
+         "d": 6,
+         "doors": [],
+         "tags": []
+        },
+        {
+         "id": "edificio-ej5-p0-17",
+         "name": "Seguridad",
+         "kind": "room",
+         "x": 62,
+         "z": 22,
+         "w": 6,
+         "d": 5,
+         "doors": [
+          {
+           "id": "edificio-ej5-p0-d17-w",
+           "side": "w",
+           "offset": 0.5,
+           "width": 0.9
+          }
+         ],
+         "tags": []
+        }
+       ],
+       "furniture": []
+      }
+     ],
+     "itemTypes": [
+      {
+       "id": "t-papelera",
+       "name": "Papelera",
+       "icon": "🗑️",
+       "color": "#64748b",
+       "shape": "bin",
+       "w": 0.5,
+       "d": 0.5,
+       "dwell": 30
+      },
+      {
+       "id": "t-reciclaje",
+       "name": "Reciclaje",
+       "icon": "♻️",
+       "color": "#16a34a",
+       "shape": "bin",
+       "w": 0.6,
+       "d": 0.6,
+       "dwell": 45
+      },
+      {
+       "id": "t-vaciado",
+       "name": "Punto de vaciado",
+       "icon": "🚮",
+       "color": "#0f766e",
+       "shape": "box",
+       "w": 1.2,
+       "d": 1,
+       "dwell": 120
+      },
+      {
+       "id": "t-cuarto",
+       "name": "Cuarto de limpieza",
+       "icon": "🧹",
+       "color": "#a16207",
+       "shape": "box",
+       "w": 2,
+       "d": 2,
+       "dwell": 180
+      },
+      {
+       "id": "t-jabon",
+       "name": "Dispensador de jabón",
+       "icon": "🧴",
+       "color": "#db2777",
+       "shape": "bin",
+       "w": 0.3,
+       "d": 0.3,
+       "dwell": 20
+      },
+      {
+       "id": "t-papel",
+       "name": "Dispensador de papel",
+       "icon": "🧻",
+       "color": "#9333ea",
+       "shape": "bin",
+       "w": 0.3,
+       "d": 0.3,
+       "dwell": 20
+      },
+      {
+       "id": "t-nook",
+       "name": "Phone nook",
+       "icon": "📞",
+       "color": "#2563eb",
+       "shape": "box",
+       "w": 1.2,
+       "d": 1.2,
+       "dwell": 120
+      },
+      {
+       "id": "t-pod",
+       "name": "Meeting pod",
+       "icon": "👥",
+       "color": "#0ea5e9",
+       "shape": "box",
+       "w": 2.4,
+       "d": 2,
+       "dwell": 240
+      }
+     ],
+     "items": [],
+     "autoFurnish": true
+    },
+    "persons": [
+     {
+      "speed": 1.2,
+      "optimize": false,
+      "id": "edificio-ej5-p0",
+      "name": "Elena",
+      "color": "#2c3e50",
+      "tags": [
+       "limpieza",
+       "equipo norte"
+      ],
+      "startDelay": 0,
+      "returnToStart": true,
+      "stops": [
+       {
+        "id": "edificio-ej5-p0-s0",
+        "floorId": "edificio-ej5-p0",
+        "spaceId": "edificio-ej5-p0-0",
+        "dwell": 60
+       },
+       {
+        "id": "edificio-ej5-p0-s1",
+        "floorId": "edificio-ej5-p1",
+        "spaceId": "edificio-ej5-p1-3",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej5-p0-s2",
+        "floorId": "edificio-ej5-p1",
+        "spaceId": "edificio-ej5-p1-4",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej5-p0-s3",
+        "floorId": "edificio-ej5-p2",
+        "spaceId": "edificio-ej5-p2-3",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej5-p0-s4",
+        "floorId": "edificio-ej5-p2",
+        "spaceId": "edificio-ej5-p2-4",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej5-p0-s5",
+        "floorId": "edificio-ej5-p3",
+        "spaceId": "edificio-ej5-p3-3",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej5-p0-s6",
+        "floorId": "edificio-ej5-p3",
+        "spaceId": "edificio-ej5-p3-4",
+        "dwell": 300
+       }
+      ]
+     },
+     {
+      "speed": 1.2,
+      "optimize": false,
+      "id": "edificio-ej5-p1",
+      "name": "Raúl",
+      "color": "#e84393",
+      "tags": [
+       "limpieza",
+       "equipo sur"
+      ],
+      "startDelay": 0,
+      "returnToStart": true,
+      "stops": [
+       {
+        "id": "edificio-ej5-p1-s0",
+        "floorId": "edificio-ej5-p0",
+        "spaceId": "edificio-ej5-p0-5",
+        "dwell": 60
+       },
+       {
+        "id": "edificio-ej5-p1-s1",
+        "floorId": "edificio-ej5-p1",
+        "spaceId": "edificio-ej5-p1-8",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej5-p1-s2",
+        "floorId": "edificio-ej5-p2",
+        "spaceId": "edificio-ej5-p2-8",
+        "dwell": 300
+       },
+       {
+        "id": "edificio-ej5-p1-s3",
+        "floorId": "edificio-ej5-p3",
+        "spaceId": "edificio-ej5-p3-8",
+        "dwell": 300
+       }
+      ]
+     }
+    ],
+    "rules": [
+     {
+      "id": "r-montacargas",
+      "personTag": "limpieza",
+      "spaceTag": "montacargas",
+      "mode": "only"
+     },
+     {
+      "id": "r-visitantes",
+      "personTag": "limpieza",
+      "spaceTag": "visitantes",
+      "mode": "deny"
+     },
+     {
+      "id": "r-carro",
+      "personTag": "limpieza",
+      "spaceTag": "sin carro",
+      "mode": "deny"
+     },
+     {
+      "id": "r-evitar-carro",
+      "personTag": "limpieza",
+      "spaceTag": "evitar carro",
+      "mode": "avoid"
+     },
+     {
+      "id": "r-escaleras",
+      "personTag": "limpieza",
+      "spaceTag": "escalera",
+      "mode": "deny"
+     },
+     {
+      "id": "r-lado-norte",
+      "personTag": "equipo norte",
+      "spaceTag": "lado sur",
+      "mode": "avoid"
+     },
+     {
+      "id": "r-lado-sur",
+      "personTag": "equipo sur",
+      "spaceTag": "lado norte",
+      "mode": "avoid"
+     }
+    ],
+    "startTime": 32400,
+    "areaMap": {},
+    "routines": [
+     {
+      "id": "r-banos",
+      "name": "Rutina de baños",
+      "color": "#db2777",
+      "filters": [
+       {
+        "kind": "spaces",
+        "spaceKinds": [
+         "restroom"
+        ],
+        "tags": [
+         "aseo"
+        ]
+       }
+      ],
+      "extra": [],
+      "floorIds": [],
+      "dwell": 300,
+      "rounds": [
+       "10:00",
+       "12:00",
+       "14:00"
+      ]
+     },
+     {
+      "id": "r-basura",
+      "name": "Recogida de basura",
+      "color": "#16a34a",
+      "filters": [
+       {
+        "kind": "items",
+        "typeIds": [
+         "t-papelera",
+         "t-reciclaje",
+         "t-vaciado"
+        ]
+       }
+      ],
+      "extra": [],
+      "floorIds": [],
+      "dwell": 60,
+      "rounds": []
+     },
+     {
+      "id": "r-meetings",
+      "name": "Limpieza de salas de reunión",
+      "color": "#2563eb",
+      "filters": [
+       {
+        "kind": "spaces",
+        "spaceKinds": [
+         "meeting"
+        ],
+        "tags": []
+       },
+       {
+        "kind": "items",
+        "typeIds": [
+         "t-nook",
+         "t-pod"
+        ]
+       }
+      ],
+      "extra": [],
+      "floorIds": [],
+      "dwell": 180,
+      "rounds": []
+     }
+    ]
+   }
+  }
+ ]
+}

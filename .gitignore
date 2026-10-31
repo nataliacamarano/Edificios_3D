@@ -1,0 +1,21 @@
+# Dependencias y compilaciones
+node_modules/
+dist/
+dist-file/
+release/
+*.log
+
+# Datos propios de esta instalación: planos calcados, personal, registro de limpieza y fotos.
+# Sin ellos la app arranca con los edificios de ejemplo (src/data/localData.ts).
+src/data/local/
+src/assets/
+
+# Motor de lectura de texto (OCR): se copia de node_modules al instalar (scripts/copy-ocr.mjs)
+public/ocr/
+
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
